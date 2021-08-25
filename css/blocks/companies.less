@@ -1,0 +1,31 @@
+// main:../style.less
+
+.companies {
+    width: auto;
+    max-width: 111rem;
+    margin: 0 auto 13.1rem auto;
+
+    @media@iPhone {
+        margin: 0 auto 5rem auto;
+    }
+}
+
+.companies__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.companies__logo {
+    width: 15%;
+
+    @media@iPhone {
+        width: 15%;
+        margin: 0 1.2rem ;
+
+        img {
+            width: 5.1rem;
+            height: 1.6rem;
+        }
+    }
+}

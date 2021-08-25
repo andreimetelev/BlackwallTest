@@ -1,0 +1,84 @@
+// main:../style.less
+
+.statistics {
+    margin-top: 12.1rem;
+    
+    @media@iPhone {
+        margin-top: 10rem;
+     }
+}
+
+.statistics__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+
+    @media@iPhone {
+        flex-wrap: wrap;
+        padding: 0 2rem;
+    }
+}
+
+.statistics__text {
+    width: 50%;
+    font-size: 3.6rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 5rem;
+
+    @media@iPhone {
+        width: 100%;
+        text-align: left;
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 2.2rem;
+    }
+}
+
+.statistics__data {
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 10rem;
+
+    @media@iPhone {
+        width: 100%;
+       justify-content: space-between;
+       margin: 0 auto;
+    }
+}
+
+.downloads__counter{
+    font-size: 6rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 7rem;
+    color: navy;
+    letter-spacing: -1px;
+}
+
+.downloads__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.8rem;
+    color: @navy;
+}
+
+.rating__counter {
+    font-size: 6rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 7rem;
+    color: @navy;
+    letter-spacing: -1px;
+}
+
+.rating__text {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 2.8rem;
+}

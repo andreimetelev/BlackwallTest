@@ -1,0 +1,32 @@
+// main:../style.less
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar__logo {
+    width: 3.2rem;
+    height: 3.2rem;
+
+    @media@iPhone {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.avatar__text {
+    width: 7.5rem;
+    height: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+    color: @navy;
+    margin-left: 7px;
+
+    @media@iPhone {
+       width: 45.17px;
+       height: 12.23px;
+       margin-left: 1.2rem;
+    }
+}

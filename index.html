@@ -11,7 +11,7 @@
 <body>
 <!-- Header -->
    <header class="header">
-    <div class="circle"></div>
+    <!-- <div class="circle"></div> -->
            <div class="header__inner">
                <div class="avatar">
                    <div class="avatar__logo">
@@ -37,7 +37,7 @@
    </header>
    <!-- header -->
 
-   <section slass="intro">   
+   <section class="intro">   
        <div class="container">
     <div class="intro__inner">
         <div class="intro__info">
@@ -45,9 +45,11 @@
             <p class="intro__text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default</p>
             <a class="intro__btn" href="#">Start for free</a>
          </div>
-        <div class="intro__photo">
-            <img class="intro__img" src="../BlackwallTest/img/img/1.jpg" alt="#">
-        </div>
+            <picture class="intro__photo" >
+                <source media="(min-width: 450px)" srcset="../BlackwallTest/img/img/1.jpg">
+                <source media="(min-width: 376px)" srcset="../BlackwallTest/img/img/2.png">
+                <img class="intro__img" src="../BlackwallTest/img/img/1.jpg" alt="#">
+            </picture>
        </div>
        </div>
    </section>

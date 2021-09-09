@@ -1,21 +1,24 @@
 // main:../style.less
 
 .statistics {
-    margin-top: 12.1rem;
+    margin-top: 10rem;
     
     @media@iPhone {
-        margin-top: 10rem;
+        margin-top: 1rem;
      }
 }
 
 .statistics__content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 5rem;
+    align-items: center;
 
     @media@iPhone {
         flex-wrap: wrap;
         padding: 0 2rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -28,7 +31,7 @@
 
     @media@iPhone {
         width: 100%;
-        text-align: left;
+        text-align: center;
         font-size: 2rem;
         line-height: 3rem;
         margin-bottom: 2.2rem;
@@ -36,12 +39,12 @@
 }
 
 .statistics__data {
-    width: 40%;
+    width: 50%;
     display: flex;
     margin: 0 auto;
     justify-content: space-evenly;
     align-content: center;
-    margin-left: 10rem;
+    
 
     @media@iPhone {
         width: 100%;

@@ -1,24 +1,21 @@
 // main:../style.less
 
 .header {
-    width: 1400px;
-    margin: 2.5rem auto 5rem auto;
-    position: relative;
-
-    @media@iPhone {
-       width: 100%;
-       max-width: 375px;
-    }
+    width: 100%;
 }
 
 .header__inner {
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 5rem;
+    flex-direction: row;
 
     @media@iPhone {
-        padding: 0 2.8rem;
-     }
+        padding: 2rem 2rem;
+    }
 }
 
 .circle {

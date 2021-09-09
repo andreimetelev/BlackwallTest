@@ -16,6 +16,18 @@
     height: auto;
     text-align: left;
 
+
+    @media@841 {
+        width: 100%;
+        text-align: center;
+    }
+
+    @media@667 {
+        width: 100%;
+        text-align: center;
+    }
+
+
     @media@iPhone {
         width: 100%;
         text-align: center;
@@ -86,6 +98,16 @@
     justify-content: end;
     align-items: center;
 
+
+    @media@841 {
+        width: fit-content;
+        z-index: -3;
+    }
+    
+    @media@667 {
+        width: 100%;
+    }
+
     @media@iPhone {
         width: 100%;
         height: auto;
@@ -95,8 +117,20 @@
 }
 
 .intro__img {
-    width: 100%;
+    width: auto;
     height: 100%;
     flex-shrink: 0;
     z-index: -2;
+
+    @media@841 {
+        width: 100%;
+    }
+
+    @media@667 {
+        width: 100%;
+    }
+
+    @media@iPhone {
+        width: 100%;
+    }
 }

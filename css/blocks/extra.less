@@ -2,7 +2,7 @@
 
 .extra {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
 
     @media@iPhone {
@@ -29,5 +29,9 @@
     &:hover {
         background-color: @navy;
         color: @white;
+    }
+
+    @media@841{
+        padding: .7rem .7rem;
     }
 }
